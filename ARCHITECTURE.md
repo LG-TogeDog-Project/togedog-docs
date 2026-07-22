@@ -6,7 +6,7 @@
 flowchart LR
     C[반려견 카메라 앱] -->|WebRTC 영상| M[보호자 Flutter 앱]
     M -->|TFLite 객체 탐지| D[위험 객체 판정]
-    M -->|YAMNet 오디오 분류| S[위험 소리 판정]
+    M -.->|확장: YAMNet 연결 실험| S[위험 소리 판정]
     D --> N[멀티모달 알림]
     S --> N
     N --> V[진동]
@@ -24,7 +24,7 @@ flowchart LR
 | 컴포넌트 | 책임 |
 |---|---|
 | Camera App | 반려견 시점 영상 송출 및 카메라 프로토타입 |
-| Mobile App | 산책 세션, 접근성 UI, 객체·소리 탐지, 멀티모달 알림 |
+| Mobile App | 산책 세션, 접근성 UI, 객체 탐지, 멀티모달 알림과 환경음 분석 연결 실험 |
 | FastAPI Backend | 회원·반려견·기기·산책·위험·생체·리포트 API |
 | WebSocket | 산책 단위 위험 이벤트 실시간 전달 |
 | Repository Layer | Firebase와 메모리 저장소를 동일 인터페이스로 교체 |
