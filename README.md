@@ -6,9 +6,11 @@ TogeDog 서비스의 시스템 구조, API, 데이터 모델과 설계 근거를
 
 | 문서 | 설명 |
 |---|---|
-| `reference/API_요약서.md` | 구현된 백엔드 API 사용 흐름 |
-| `reference/DB_구조서.md` | 회원·반려견·기기·산책·위험·생체·리포트 데이터 구조 |
-| `reference/firebase-schema.example.json` | 비밀값이 없는 Firebase 예시 스키마 |
+| [`ARCHITECTURE.md`](./ARCHITECTURE.md) | 앱·백엔드·AI·데이터 계층의 전체 시스템 구조 |
+| [`REPOSITORY_MAP.md`](./REPOSITORY_MAP.md) | 오거나이제이션 저장소별 책임과 연결 관계 |
+| [`reference/API_명세서.md`](./reference/API_%EB%AA%85%EC%84%B8%EC%84%9C.md) | 구현된 백엔드 API Endpoint와 사용 흐름 |
+| [`reference/DB_설계서.md`](./reference/DB_%EC%84%A4%EA%B3%84%EC%84%9C.md) | 회원·반려견·기기·산책·위험·생체·리포트 데이터 구조 |
+| [`reference/firebase-schema.example.json`](./reference/firebase-schema.example.json) | 비밀값이 없는 Firebase 예시 스키마 |
 
 ## Service Flow
 
