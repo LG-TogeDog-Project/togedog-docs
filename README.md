@@ -6,6 +6,7 @@ TogeDog 서비스의 시스템 구조, API, 데이터 모델과 설계 근거를
 
 | 문서 | 설명 |
 |---|---|
+| [`reports/TogeDog_Final_Report_Public.pdf`](./reports/TogeDog_Final_Report_Public.pdf) | 내부 WBS 링크와 개인 문서 메타데이터를 제거한 77페이지 공개용 최종 산출문서 |
 | [`ARCHITECTURE.md`](./ARCHITECTURE.md) | 앱·백엔드·AI·데이터 계층의 전체 시스템 구조 |
 | [`REPOSITORY_MAP.md`](./REPOSITORY_MAP.md) | 오거나이제이션 저장소별 책임과 연결 관계 |
 | [`FINAL_REPORT_COVERAGE.md`](./FINAL_REPORT_COVERAGE.md) | 77페이지 최종 산출문서의 공개 반영 위치와 제외 기준 |
@@ -45,3 +46,5 @@ sequenceDiagram
 ## Notice
 
 본 프로젝트는 LG전자 DX School 팀 프로젝트이며 실제 LG전자의 공식 제품 또는 출시 서비스가 아닙니다.
+
+공개용 최종 산출문서의 SHA-256 체크섬은 `d84ede1541f27fe229d7813209645ac6cae8b120011fd94c619b0aae13156eb8`입니다.
